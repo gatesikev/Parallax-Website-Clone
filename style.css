@@ -1,10 +1,13 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
+  background-color: gray;
   height: 100%;
-  color: #777;
+  color: white;
   line-height: 1.8;
 }
-
+.mynavbar{
+    position: sticky;
+}
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
@@ -15,7 +18,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/w3images/parallax1.jpg');
+  background-image: url('Wallpaper1.jpeg');
   min-height: 100%;
 }
 
@@ -40,4 +43,10 @@ body, html {
     background-attachment: scroll;
     min-height: 400px;
   }
+}
+#about{
+  background-image: url("moon.jpeg");
+}
+#picture{
+  border-radius: 50%;
 }
