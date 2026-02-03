@@ -1,6 +1,9 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
   background-color: gray;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
   color: white;
   line-height: 1.8;
@@ -18,7 +21,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('Wallpaper1.jpeg');
+  background-image: url("moon.jpeg");
   min-height: 100%;
 }
 
@@ -45,7 +48,7 @@ body, html {
   }
 }
 #about{
-  background-image: url("moon.jpeg");
+  background-image: url("");
 }
 #picture{
   border-radius: 50%;
