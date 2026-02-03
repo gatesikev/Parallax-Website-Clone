@@ -37,6 +37,89 @@ header {
   color: #ffcc00;
 }
 
+/* About Section */
+.about-section {
+  padding: 80px 15%;
+  background: #f9f9f9;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+/* Left Column: Image */
+.about-left {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.circle-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #333;
+}
+
+#pic{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+/* Right Column: Text */
+.about-right {
+  flex: 2 1 400px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Skills */
+.skill {
+  margin: 20px 0;
+}
+
+.skill span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  width: 100%;
+  background: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.skill-fill {
+  height: 25px;
+  background: #333;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 20px 0 0 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-right {
+    text-align: center;
+  }
+}
+
+
 /* Parallax Effect */
 .parallax {
   height: 100vh;
@@ -119,4 +202,7 @@ footer {
     width: 100%;
   }
 }
-
+.picture{
+   border-radius:50%;
+   justify-items: center;
+}
