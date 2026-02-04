@@ -5,36 +5,88 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
-
-/* Navbar */
-header {
+ 
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+/* Navbar like W3Schools Parallax */
+.top-nav {
   position: fixed;
   width: 100%;
-  background: rgba(0,0,0,0.7);
+  top: 0;
+  background: rgba(255, 255, 255, 0.8);
   z-index: 1000;
+  font-family: Arial, sans-serif;
 }
 
-.navbar {
+.nav-container {
   display: flex;
   justify-content: space-between;
-  padding: 15px 40px;
-  color: white;
+  align-items: center;
+  padding: 8px 20px;
 }
 
-.navbar ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.navbar a {
-  color: white;
+/* Left Links */
+.nav-left a {
   text-decoration: none;
-  font-weight: bold;
+  color: black;
+  padding: 8px 12px;
+  font-size: 14px;
+  letter-spacing: 2px;
 }
 
-.navbar a:hover {
-  color: #ffcc00;
+.nav-left a:hover {
+  background: #ddd;
+}
+
+/* Right Search Icon */
+.search-icon {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+}
+
+.search-icon:hover {
+  background: #ddd;
+}
+
+/* Mobile Menu Icon */
+.menu-icon {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  display: none;
+  background: white;
+  width: 100%;
+}
+
+.mobile-menu a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  border-top: 1px solid #ddd;
+}
+
+.mobile-menu a:hover {
+  background: #f0f0f0;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .nav-left, .nav-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
 }
 
 /* About Section */

@@ -10,16 +10,33 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <nav class="navbar">
-    <div class="logo">MY WEBSITE</div>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+<header class="top-nav">
+  <div class="nav-container">
+    
+    <!-- Left Links -->
+    <div class="nav-left">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#portfolio">PORTFOLIO</a>
+      <a href="#contact">CONTACT</a>
+    </div>
+
+    <!-- Right Icon -->
+    <div class="nav-right">
+      <a href="#" class="search-icon">&#128269;</a>
+    </div>
+
+    <!-- Mobile Menu Icon -->
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="mobile-menu">
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#portfolio">PORTFOLIO</a>
+    <a href="#contact">CONTACT</a>
+  </div>
 </header>
 
 <!-- Parallax Section 1 -->
@@ -58,7 +75,7 @@
   <h3 class="center-text">I'm really good at:</h3>
 
   <div class="skill">
-    <span>Web Design</span>
+    <span><i></i>Web Design</span>
     <div class="skill-bar">
       <div class="skill-fill" style="width:85%;">85%</div>
     </div>
@@ -93,9 +110,9 @@
   <p>Here you can showcase your projects.</p>
 
   <div class="gallery">
-    <img src="images/bg1.jpg" alt="">
-    <img src="images/bg2.jpg" alt="">
-    <img src="images/bg3.jpg" alt="">
+    <img src="wallpaper3.jpeg" alt="1">
+    <img src="wallpaper4.jpeg" alt="2">
+    <img src="wallpaper5.jpeg" alt="3">
   </div>
 </section>
 
