@@ -82,7 +82,7 @@ body, html {
 /* Responsive Navbar */
 @media (max-width: 768px) {
   .nav-left, .nav-right {
-    display: none;
+    display:flex;
   }
 
   .menu-icon {
@@ -186,6 +186,7 @@ body, html {
   flex-wrap: wrap;
   gap: 40px;
   margin-top: 40px;
+  justify-content: center;
 }
 
 /* Left Column: Image */
@@ -459,44 +460,47 @@ body, html {
   cursor: pointer;
 }
 .load-more-btn:hover { background-color: #ccc; }
+
+
 /* Footer Container */
 .footer-container {
   padding: 64px 16px;
-  background-color: #000; /* Solid black background */
+  background-color: gray; /* Solid light gray background */
   color: #fff;
   text-align: center;
+}
+.footer-container:hover{
+  background-color:#000;
 }
 
 /* To the Top Button */
 .to-top-btn {
   display: inline-block;
-  background-color: #f1f1f1; /* Light gray button background */
-  color: #000;
-  text-decoration: none;
+  background-color:white; /* Light gray button background */
   padding: 12px 24px;
   margin-bottom: 32px;
   font-size: 16px;
   transition: 0.3s;
 }
-
 .to-top-btn:hover {
   background-color: #ccc; /* Darker gray on hover */
+  color: #000;
 }
 
 /* Social Media Icons */
 .social-icons {
   font-size: 24px;
-  margin-bottom: 16px;
-  opacity: 0.6; /* Matches the slightly faded look of the icons */
+  margin-bottom: 10px;
+  
 }
 
 .social-icons i {
-  margin: 0 4px; /* Slight spacing between icons */
-  cursor: pointer;
+ color: white;
+ cursor: pointer;
 }
 
 .social-icons i:hover {
-  opacity: 1; /* Brightens on hover */
+  color: gray; /* Brightens on hover */
 }
 
 /* Footer Link styling */
@@ -506,9 +510,22 @@ body, html {
 }
 
 .footer-container a {
-  color: #fff;
+  color: gray;
+  text-decoration: none;
+ }
+
+ .footer-container li a{
+  color: white;
   text-decoration: underline;
-}
+ }
+
+ .footer-container ul{
+  list-style: none;
+ }
+ .footer-container li a:hover{
+  color: green;
+ }
+
 
 /* --- RESPONSIVE SETTINGS --- */
 @media (max-width: 600px) {
