@@ -4,8 +4,6 @@
 <title>Parallax Website</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -56,7 +54,7 @@
   <div class="about-content">
     <!-- Left Column: Image -->
     <div class="about-left">
-      <p><strong>Kevine Gatesi</strong></p>
+     <p><b><i class="fa fa-user"></i>GATESI Kevine</b></p><br>
       <img src="me.jpeg"alt="Photo of Kevine" class="circle-img" id="pic">
     </div>
 
@@ -73,30 +71,29 @@
     </div>
   </div>
 
-  <!-- Skills -->
+  <!--Skill-->
   <h3 class="center-text">I'm really good at:</h3>
 
-  <div class="skill">
-    <span><i class="fa fa-laptop"></i>Web Design</span>
-    <div class="skill-bar">
-      <div class="skill-fill" style="width:85%;">85%</div>
-    </div>
+<div class="skill">
+  <span><i class="fa fa-music"></i>Listening to music</span>
+  <div class="skill-bar">
+    <div class="skill-fill" style="width:90%;">90%</div>
   </div>
+</div>
 
-  <div class="skill">
-    <span><i class="fa fa-music"></i>Listenig music🎶</span>
-    <div class="skill-bar">
-      <div class="skill-fill" style="width:90%;">90%</div>
-    </div>
+<div class="skill">
+  <span><i class="fa fa-laptop"></i>Web Design</span>
+  <div class="skill-bar">
+    <div class="skill-fill" style="width:85%;">85%</div>
   </div>
+</div>
 
-  <div class="skill">
-    <span><i class="fa fa-image"></i>Photoshop / Design Tools</span>
-    <div class="skill-bar">
-      <div class="skill-fill" style="width:75%;">75%</div>
-    </div>
+<div class="skill">
+  <span><i class="fa fa-image"></i>Photoshop / Design Tools</span>
+  <div class="skill-bar">
+    <div class="skill-fill" style="width:75%;">75%</div>
   </div>
-</section>
+</div>
 
 
 <!-- Parallax Section 2 -->
@@ -106,27 +103,49 @@
   </div>
 </section>
 
-<!-- Portfolio Section -->
-<section id="portfolio" class="content">
-  <h2>MY WALLPAPERS</h2>
-  <p>These are my favorite wallpapers.</p>
-
-  <div class="gallery">
-    <img src="wallpaper3.jpeg" alt="1">
-    <img src="wallpaper4.jpeg" alt="2">
-    <img src="wallpaper5.jpeg" alt="3">
-    <img src="wallpaper6.jpeg" alt="4">
-    <img src="wallpaper7.jpeg" alt="5">
-    <img src="wallpaper8.jpeg" alt="6">
-    <img src="Wallpaper1.jpeg" alt="7">
-    <img src="wallpaper2.jpeg" alt="8">
-   </div>
-
-   <div class="btn">
-    <button class="button">LOAD MORE</button>
-   </div>
+<!--Stats bar section-->
+<section class="stats-bar">
+  <div class="stat-item">
+    <h2>14+</h2>
+    <p>Websites</p>
+  </div>
+  <div class="stat-item">
+    <h2>55+</h2>
+    <p>Photoshop projects</p>
+  </div>
+  <div class="stat-item">
+    <h2>89+</h2>
+    <p>Drawings</p>
+  </div>
+  <div class="stat-item">
+    <h2>150+</h2>
+    <p>Songs</p>
+  </div>
 </section>
 
+<!--Portfolio Section-->
+<section id="portfolio" class="portfolio-container">
+  <div class="portfolio-inner">
+    <h3 class="portfolio-title">MY WALLPAPERS</h3>
+    <p class="portfolio-subtitle"><em>Here are some of my favorite wallpapers.<br> 
+    Click on the images to make them bigger</em></p>
+
+    <div class="portfolio-grid">
+      <div class="portfolio-item"><img src="wallpaper3.jpeg" alt="Wallpaper 1"></div>
+      <div class="portfolio-item"><img src="wallpaper4.jpeg" alt="Wallpaper 2"></div>
+      <div class="portfolio-item"><img src="wallpaper5.jpeg" alt="Wallpaper 3"></div>
+      <div class="portfolio-item"><img src="wallpaper6.jpeg" alt="Wallpaper 4"></div>
+      <div class="portfolio-item"><img src="wallpaper7.jpeg" alt="Wallpaper 5"></div>
+      <div class="portfolio-item"><img src="wallpaper8.jpeg" alt="Wallpaper 6"></div>
+      <div class="portfolio-item"><img src="Wallpaper1.jpeg" alt="Wallpaper 7"></div>
+      <div class="portfolio-item"><img src="wallpaper2.jpeg" alt="Wallpaper 8"></div>
+    </div>
+
+    <div class="portfolio-footer">
+      <button class="load-more-btn">LOAD MORE</button>
+    </div>
+  </div>
+</section>
 <!-- Parallax Section 3 -->
 <section class="parallax bg3">
   <div class="center-text">
@@ -136,31 +155,53 @@
 
 <!-- Contact Section -->
 <section id="contact" class="content">
-  
-  <h2>GET IN TOUCH</h2>
-  <p>Email: example@email.com</p>
-  <div class="icons">
-  <i class="fa fa-paper-location"></i>Kigali,Rwanda
-  <i class="fa fa-paper-phone"></i>Phone: 250 786 000 000
-  <i class="fa fa-envelope"></i>Email: info@gmail.com
-</div>
+  <div class="contact-grid">
+        
+        <div class="col-image">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2855.617325185424!2d30.056671000000005!3d-1.9616269999999882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwNTcnNDEuOSJTIDMwwrAwMycyNC4wIkU!5e1!3m2!1sen!2srw!4v1770248371403!5m2!1sen!2srw" 
+           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"  alt="Map View" class="map-img"></iframe> 
+        </div>
 
-  <div class="form">
-    <form>
-      <div class="element">
-      <input type="text"  placeholder="Name" required name="Name"   >
-      <input type="email" placeholder="Email"  required name="Email"><br>
-      <input type="text"   placeholder="Message"  required  name="Message">
-      <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        <div class="col-form">
+            <div class="contact-details">
+                <p><i class="fa fa-map-marker"></i> Chicago, US</p>
+                <p><i class="fa fa-phone"></i> Phone: +00 151515</p>
+                <p><i class="fa fa-envelope"></i> Email: mail@mail.com</p>
+            </div>
+
+            <p class="invite-text">Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+
+            <form>
+                <div class="row-inputs">
+                    <input type="text" placeholder="Name" class="input-field" required>
+                    <input type="email" placeholder="Email" class="input-field" required>
+                </div>
+                <input type="text" placeholder="Message" class="input-field" required>
+                <div class="button-container">
+                    <button type="submit" class="send-btn">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </div>
+            </form>
+        </div>
+
     </div>
-    </form>
-  </div>
 </section>
 
 <!-- Footer -->
-<footer>
-  <p>© 2026 My Parallax Website</p>
+<footer class="footer-container">
+  <a href="#home" class="to-top-btn"><i class="fa fa-arrow-up"></i> To the top</a>
+
+  <div class="social-icons">
+    <i class="fa fa-facebook-official"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-snapchat"></i>
+    <i class="fa fa-pinterest-p"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
 </body>
